@@ -28,6 +28,18 @@ public class ApplicationForm {
 		
 		MenuItem mt1 = new MenuItem("BHM");
 		MenuItem mt2 = new MenuItem("BIM");
+		
+		MenuItem mt3 = new MenuItem("New");
+		MenuItem mt4 = new MenuItem("Open File From");
+		MenuItem mt5 = new MenuItem ("Recent Files");
+		MenuItem mt6 = new MenuItem("Exit");
+		
+		MenuItem mt7 = new MenuItem("Cut");
+		MenuItem mt8 = new MenuItem("Copy");
+		MenuItem mt9 = new MenuItem("Paste");
+		
+		m2.add(mt7);m2.add(mt8);m2.add(mt9);
+		m1.add(mt3);m1.add(mt4);m1.add(mt5);m1.add(mt6);
 		m4.add(mt1); m4.add(mt2);
 		
 //-------------------University name / header-----------------------------------
